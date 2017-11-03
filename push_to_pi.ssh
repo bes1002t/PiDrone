@@ -1,1 +1,10 @@
+case "$1" in
+  -u)
+    echo 'Push cargo registry to pi'
+    scp -r ~/.cargo/registry pi@192.168.1.37:/home/pi/.cargo/
+    break
+    ;;
+  *)
+    ;;
+esac
 scp -r PiDrone/ pi@192.168.1.37:/home/pi/workspace/rust/
