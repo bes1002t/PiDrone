@@ -1,0 +1,6 @@
+[package]
+name = "PiDrone"
+version = "0.1.0"
+authors = ["fesu"]
+
+[dependencies]
