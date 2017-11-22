@@ -4,3 +4,5 @@ version = "0.1.0"
 authors = ["fesu"]
 
 [dependencies]
+i2cdev = "0.3.1"
+docopt = "*"
