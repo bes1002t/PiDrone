@@ -1,4 +1,4 @@
-use utils::bmp180_barometer;
+use sensors::bmp180_barometer;
 
 fn main() {
 	let sensor = BMP180_Barometer::new();
